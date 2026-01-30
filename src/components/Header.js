@@ -3,8 +3,18 @@ import './styles/Header.scss';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
+            <div className="Header__logo">
+                <h1>Simplilearn</h1>
+            </div>
 
+            <nav>
+                <ul>
+                    <div className="closed">
+                        <Close className='close'/>
+                    </div>
+                </ul>
+            </nav>
         </div>
     )
 }
