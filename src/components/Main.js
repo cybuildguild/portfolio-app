@@ -1,5 +1,6 @@
 import react from "react";
 import './styles/Main.scss';
+import { Instagram, Twitter, Facebook, Link} from '@material-ui/icons';
 
 const Main =() => {
     return (
@@ -12,6 +13,13 @@ const Main =() => {
                             I am Cybuildguild
                         </h1>
                         <p>Front-end Developer & Designer</p>
+
+                        <div className="icons">
+                            <Twitter className="icon"/>
+                            <Instagram className="icon"/>
+                            <Facebook className="icon"/>
+                            <LinkedIn className="icon"/>
+                        </div>
                     </div>
                 </div>
             </div>
