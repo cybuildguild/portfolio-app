@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Header.scss';
-import {Close} from "@material-ui/icons";
+import {Close, MenuBookOutlined} from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -34,6 +34,10 @@ const Header = () => {
 
                 </ul>
             </nav>
+
+            <div className="changer">
+                <MenuBookOutlined className="menu" />
+            </div>
         </div>
     )
 }
