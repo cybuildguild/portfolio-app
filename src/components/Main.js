@@ -1,7 +1,7 @@
 import react from "react";
 import './styles/Main.scss';
 import { Instagram, Twitter, Facebook, Link} from '@material-ui/icons';
-import anu from './assets/profilephoto.jpeg';
+import cbg from './assets/profilephoto.jpeg';
 
 
 const Main =() => {
@@ -31,7 +31,7 @@ const Main =() => {
                     </div>
 
                     <div className="main__img">
-                        <img src={anu} alt=" " />
+                        <img src={cbg} alt=" " />
                     </div>
                 </div>
             </div>
