@@ -1,6 +1,8 @@
 import react from "react";
 import './styles/Main.scss';
 import { Instagram, Twitter, Facebook, Link} from '@material-ui/icons';
+import anu from './assets/profilephoto.jpeg';
+
 
 const Main =() => {
     return (
@@ -26,6 +28,10 @@ const Main =() => {
                             <button>Hire Me</button>
                         </div>
 
+                    </div>
+
+                    <div className="main__img">
+                        <img src={anu} alt=" " />
                     </div>
                 </div>
             </div>
