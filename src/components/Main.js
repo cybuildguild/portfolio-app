@@ -1,7 +1,7 @@
 import react from "react";
 import './styles/Main.scss';
 import { Instagram, Twitter, Facebook, Link} from '@material-ui/icons';
-import cbg from './assets/profilephoto.jpeg';
+import cbg from './assets/cybuildguild.png';
 
 
 const Main =() => {
