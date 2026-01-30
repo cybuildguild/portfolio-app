@@ -20,6 +20,12 @@ const Main =() => {
                             <Facebook className="icon"/>
                             <LinkedIn className="icon"/>
                         </div>
+
+                        <div className="buttons">
+                            <button>See Me</button>
+                            <button>Hire Me</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
