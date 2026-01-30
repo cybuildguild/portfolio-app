@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/Header.scss';
+import {Close} from "@material-ui/icons";
 
 const Header = () => {
     return (
