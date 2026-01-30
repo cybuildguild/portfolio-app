@@ -1,6 +1,7 @@
 import React from "react";
 import './styles/Header.scss';
 import {Close} from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -14,6 +15,12 @@ const Header = () => {
                     <div className="closed">
                         <Close className='close'/>
                     </div>
+
+                    <li>
+                        <Link>
+                        </Link>
+                    </li>
+
                 </ul>
             </nav>
         </div>
